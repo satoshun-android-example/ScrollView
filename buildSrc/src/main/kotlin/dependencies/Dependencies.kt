@@ -35,6 +35,7 @@ const val MEDIA2 = "androidx.media2:media2:1.0.0-alpha04"
 const val MATERIAL = "com.google.android.material:material:1.1.0"
 const val MATERIAL_IMAGEVIEW = "com.github.satoshun.material:imageview:1.2.0-alpha05"
 const val MATERIAL_THEME = "com.github.satoshun.material:theme:1.2.0-alpha05"
+const val MATERIAL_TRANSITION = "com.github.satoshun.material:transition:1.2.0-alpha05"
 
 const val PAGING = "androidx.paging:paging-runtime:2.1.0"
 const val BROWSER = "androidx.browser:browser:1.0.0"

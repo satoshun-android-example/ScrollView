@@ -54,6 +54,7 @@ dependencies {
 
   implementation MATERIAL_IMAGEVIEW
   implementation MATERIAL_THEME
+  implementation MATERIAL_TRANSITION
 
   testImplementation JUNIT
 
