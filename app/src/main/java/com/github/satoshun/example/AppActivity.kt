@@ -14,7 +14,7 @@ class AppActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
     binding = DataBindingUtil.setContentView(this, R.layout.app_act)
 
-    binding.centerWithDivider.setOnClickListener {
+    binding.nestedScroll.setOnClickListener {
       startActivity(
         Intent(this@AppActivity, NestedScrollViewActivity::class.java)
       )

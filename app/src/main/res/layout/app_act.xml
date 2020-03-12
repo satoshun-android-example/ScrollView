@@ -11,24 +11,10 @@
     android:padding="16dp">
 
     <Button
-      android:id="@+id/center_with_divider"
+      android:id="@+id/nested_scroll"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="Center With Divider"
-      tools:ignore="HardcodedText" />
-
-    <Button
-      android:id="@+id/gone_width"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="Gone Width"
-      tools:ignore="HardcodedText" />
-
-    <Button
-      android:id="@+id/trim"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="Trim View"
+      android:text="NestedScrollView"
       tools:ignore="HardcodedText" />
   </LinearLayout>
 </layout>

@@ -1,86 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:app="http://schemas.android.com/apk/res-auto">
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <androidx.coordinatorlayout.widget.CoordinatorLayout
-    android:id="@+id/coordinator"
+  <androidx.core.widget.NestedScrollView
+    android:id="@+id/container"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true">
+    android:layout_height="wrap_content">
 
-    <com.google.android.material.appbar.AppBarLayout
+    <LinearLayout
       android:layout_width="match_parent"
-      android:layout_height="wrap_content">
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
 
-      <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        style="@style/Widget.AppCompat.Toolbar"
+      <Button
+        android:id="@+id/hoge"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:minHeight="?attr/actionBarSize"
-        app:menu="@menu/main_menu"
-        app:navigationIcon="@drawable/abc_vector_test"
-        app:titleTextColor="@android:color/black" />
-    </com.google.android.material.appbar.AppBarLayout>
+        android:layout_height="500dp"
+        android:layout_marginBottom="300dp"
+        android:text="1" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-      android:layout_width="match_parent"
-      android:layout_height="120dp"
-      app:layout_behavior="@string/appbar_scrolling_view_behavior">
+      <Button
+        android:id="@+id/hoge2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="800dp"
+        android:text="2" />
 
-      <TextView
-        android:id="@+id/left_icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="1"
-        app:layout_constraintBottom_toBottomOf="@id/divider"
-        app:layout_constraintEnd_toStartOf="@id/left_title"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/divider" />
+      <Button
+        android:id="@+id/hoge3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="100dp"
+        android:text="3" />
 
-      <TextView
-        android:id="@+id/left_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:text="LEFT"
-        app:layout_constraintBottom_toBottomOf="@id/left_icon"
-        app:layout_constraintEnd_toStartOf="@id/divider"
-        app:layout_constraintStart_toEndOf="@id/left_icon"
-        app:layout_constraintTop_toTopOf="@id/left_icon" />
+      <Button
+        android:id="@+id/hoge4"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="300dp"
+        android:text="4" />
 
-      <View
-        android:id="@+id/divider"
-        android:layout_width="1dp"
-        android:layout_height="wrap_content"
-        android:background="@android:color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-      <TextView
-        android:id="@+id/right_icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="2"
-        app:layout_constraintBottom_toBottomOf="@id/divider"
-        app:layout_constraintEnd_toStartOf="@id/right_title"
-        app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toEndOf="@id/divider"
-        app:layout_constraintTop_toTopOf="@id/divider" />
-
-      <TextView
-        android:id="@+id/right_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:text="RIGHT"
-        app:layout_constraintBottom_toBottomOf="@id/right_icon"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/right_icon"
-        app:layout_constraintTop_toTopOf="@id/right_icon" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-  </androidx.coordinatorlayout.widget.CoordinatorLayout>
+      <Button
+        android:id="@+id/hoge5"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="5" />
+    </LinearLayout>
+  </androidx.core.widget.NestedScrollView>
 </layout>
