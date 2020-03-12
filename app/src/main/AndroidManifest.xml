@@ -25,5 +25,9 @@
     <activity
       android:name=".nestedscrollview.NestedScrollViewActivity"
       android:theme="@style/AppTheme.NoActionBar" />
+
+    <activity
+      android:name=".nestedscrollview.NestedNestScrollViewActivity"
+      android:theme="@style/AppTheme.NoActionBar" />
   </application>
 </manifest>

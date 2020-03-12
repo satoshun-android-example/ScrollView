@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.github.satoshun.example.nestedscrollview.NestedScrollViewActivity
 import com.github.satoshun.example.databinding.AppActBinding
+import com.github.satoshun.example.nestedscrollview.NestedNestScrollViewActivity
 
 class AppActivity : AppCompatActivity() {
   private lateinit var binding: AppActBinding
@@ -17,6 +18,12 @@ class AppActivity : AppCompatActivity() {
     binding.nestedScroll.setOnClickListener {
       startActivity(
         Intent(this@AppActivity, NestedScrollViewActivity::class.java)
+      )
+    }
+
+    binding.nestedNestScroll.setOnClickListener {
+      startActivity(
+        Intent(this@AppActivity, NestedNestScrollViewActivity::class.java)
       )
     }
   }

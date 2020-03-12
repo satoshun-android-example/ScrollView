@@ -16,5 +16,12 @@
       android:layout_height="wrap_content"
       android:text="NestedScrollView"
       tools:ignore="HardcodedText" />
+
+    <Button
+      android:id="@+id/nested_nest_scroll"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Nested Nest ScrollView"
+      tools:ignore="HardcodedText" />
   </LinearLayout>
 </layout>
