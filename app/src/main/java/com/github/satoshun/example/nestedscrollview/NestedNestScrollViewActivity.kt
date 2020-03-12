@@ -28,6 +28,6 @@ class NestedNestScrollViewActivity : AppCompatActivity() {
   }
 
   private fun scrollToTargetView(targetView: View) {
-    binding.top.scrollTo(0, targetView.top + binding.top.height)
+    binding.top.scrollTo(0, targetView.top - binding.top.height + targetView.height)
   }
 }
