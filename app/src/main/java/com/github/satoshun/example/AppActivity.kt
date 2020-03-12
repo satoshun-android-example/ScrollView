@@ -7,6 +7,7 @@ import androidx.databinding.DataBindingUtil
 import com.github.satoshun.example.nestedscrollview.NestedScrollViewActivity
 import com.github.satoshun.example.databinding.AppActBinding
 import com.github.satoshun.example.nestedscrollview.NestedNestScrollViewActivity
+import com.google.android.material.imageview.ShapeableImageView
 
 class AppActivity : AppCompatActivity() {
   private lateinit var binding: AppActBinding

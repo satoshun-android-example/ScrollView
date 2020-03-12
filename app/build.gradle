@@ -52,6 +52,9 @@ dependencies {
   implementation GROUPIE
   implementation GROUPIE_DATABINDING
 
+  implementation MATERIAL_IMAGEVIEW
+  implementation MATERIAL_THEME
+
   testImplementation JUNIT
 
   androidTestImplementation TEST_RUNNER
